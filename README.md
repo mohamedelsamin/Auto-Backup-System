@@ -6,7 +6,7 @@ It compresses selected folders, stores backups locally, removes old backups, upl
 ### This project was built to solve a real problem:  
 👉 Manually backing up files is error-prone, time-consuming, and easy to forget.
 
-## 🎯 Features
+##  Features
 - Automatic backup of important folders
 - Compression into ZIP files
 - Automatic deletion of old backups
@@ -24,6 +24,14 @@ It compresses selected folders, stores backups locally, removes old backups, upl
 - datetime – Timestamp generation
 - time – Continuous execution loop
 
+## Project Structure 
+```
+backup-system/  
+│  
+├── backup.py  
+├── client_secrets.json  
+```
+
 ## 🧪 Run Backup Immediately (Optional)
 
 To test the backup process instantly, temporarily add this line inside backup.py:
@@ -36,7 +44,7 @@ print("Auto Backup System is running...")
 ```
 On first run, a browser window will open to authenticate your Google account.
 
-## 🔐 Google Drive Setup
+## Google Drive Setup
 - Create a project on Google Cloud Console
 - Enable Google Drive API
 - Download ``` client_secrets.json ```
